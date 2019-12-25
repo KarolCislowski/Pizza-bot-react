@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Vegetarian",
+    "toppings": ["Spinach", "Broccoli", "Jalapeno"],
+    "price": 75,
+    "quantity": 0
+  },
+  {
+    "name": "Hawaiian",
+    "toppings": ["Pinapple", "Ham"],
+    "price": 90,
+    "quantity": 0
+  },
+  {
+    "name": "Pepperoni",
+    "toppings": ["Pepperoni"],
+    "price": 90,
+    "quantity": 0
+  },
+  {
+    "name": "Capricciosa",
+    "toppings": ["Ham", "Mushroom", "Artichoke"],
+    "price": 80,
+    "quantity": 0
+  }
+]

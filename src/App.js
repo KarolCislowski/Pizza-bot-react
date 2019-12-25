@@ -1,9 +1,14 @@
 import React from 'react'
+import { Header } from './components/Header/Header'
+import { Hero } from './components/Hero/Hero'
+import { Main } from './components/Main/Main.js'
 
 export const App = () => {
   return (
     <div>
-      Find me in src/app.js!
+      <Header />
+      <Hero />
+      <Main />
     </div>
   )
 }
