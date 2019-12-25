@@ -1,17 +1,8 @@
-import React, { useState } from 'react'
-import data from '../../../data/menu.json'
+import React from 'react'
+
 import { Pizza } from './Pizza/Pizza'
 
-export const Menu = () => {
-  const [menu, setMenu] = useState(data)
-
-  const quantityChangeHandler = (index, quantity) => {
-    const tempState = menu
-    tempState[index].quantity = quantity
-    console.log(tempState)
-    setMenu(() => tempState)
-  }
-  console.log(menu)
+export const Menu = ({ menu, quantityChangeHandler }) => {
   return (
     <section className="menu">
       <h2>MENU</h2>

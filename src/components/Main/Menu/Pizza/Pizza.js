@@ -24,3 +24,4 @@ export const Pizza = ({ name, toppings, price, quantity, onQuantityChange, index
     </div>
   )
 }
+
